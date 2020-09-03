@@ -45,3 +45,7 @@ GMS_EEA_Special.docx
 **GMS_Go_Special.docx**
 
 	文档主要介绍GMS认证中Go项目的相关内容
+
+**GMS_Express_Special.docx**
+
+	文档主要介绍GMS认证相关的Express和Express+内容
