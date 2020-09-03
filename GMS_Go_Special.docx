@@ -1,0 +1,44 @@
+Android Go 简介
+(相关内容在不断更新中，此处仅供参考)
+　　2017 年 5 月，Google在其I/O 大会上，宣布将在下一代移动操作系统中推出 Android Go 项目。
+　　2017 年 12 月 5 日，Google在其官方博客宣布，伴随着 Android 8.1 的正式推送，Android Oreo（Go Edition），即Android 8.1 Go，正式发布。
+　　根据 Google 描述，Android Go Edition主要适用于内存容量为 512 MB 至 1GB 的移动设备(Android 10.0开始2GB设备也可以适配为Go版本，同时2020.10.20开始强制适配为Go版本)。
+　　Go版本在软件上专门添加一系列优化措施，专门解决用户使用痛点，目前有Android 8.1 Go，Android 9 Go，Android 10 Go版本。
+Go版本优化措施
+1.存储空间：Go版本预置专门优化精简过的GMS包（GMS_go），占用空间更小，保留更多存储空间给用户。
+2.运行性能：Go版本针对Android系统启动，运行和APP启动，运行做了深层次的优化，保证更快启动和运行速度。
+3.流量优化：Go版本优化了APP对流量的消耗以及在不良网络环境下APP的运行。
+4.安全性优化：添加安全启动认证(目前所有认证版本都需要添加此项)。
+
+和非Go版本区别
+1.用户感受区别：
+A.开机Logo(Go版本为Powered by Android Go)
+B.预置的GMS包APP不同
+　　Google Go, Google Assistant Go, YouTube Go, Google Maps Go, Gmail Go, Files Go
+　　Go版本上PlayStore里会有专门的Go版APP专区
+C.桌面布局不同
+　　Google文件夹内APP个数不同(Go要求预置个数少于非Go版本)
+　　桌面预置图标不同(比如非Go版本桌面必须放置Duo，Go版本不要求；Go版本屏分辨率大于720P，hotseat可以预置5个应用，一般是4个应用)
+D.没有动态壁纸
+E.蓝牙，自动旋转，流量节省默认关闭
+
+2.软件实现上的区别：
+A.GMS测试需要额外做专门的性能测试(Android Q更新为GOATS测试)
+B.需要更改用户分区为F2FS格式
+C.系统需开启低内存属性及相关优化内容
+D.不可以预置动态壁纸
+E.不可以做人脸识别功能
+F.设置蓝牙，自动旋转，流量节省默认关闭
+
+参考内容：
+https://www.leiphone.com/news/201712/y9zYLr2YVEqGqFSN.html
+https://developer.android.google.cn/google-play/guides/android-go-edition/
+摘自mtk cdd文档
+
+非Go和Go的开机logo定制区别
+
+
+
+非Go和Go版本预置的GMS包内容区别
+
+
