@@ -44,8 +44,18 @@ GMS_EEA_Special.docx
 
 **GMS_Go_Special.docx**
 
-	文档主要介绍GMS认证中Go项目的相关内容
+	文档主要介绍GMS认证中Go项目的相关内容。
 
 **GMS_Express_Special.docx**
 
-	文档主要介绍GMS认证相关的Express和Express+内容
+	文档主要介绍GMS认证相关的Express和Express+内容。
+
+**GMS_SMR_Summary.docx**
+
+	文档主要介绍SMR更新需要执行的操作。
+
+**GMS_STS_New.docx**
+
+	文档主要介绍STS在2020年度新政策。
+
+
